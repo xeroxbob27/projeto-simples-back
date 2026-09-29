@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.get("/", (req, res) => {
-  res.json({ message: "API funcionando com CI/CD no Render..." })
+  res.json({ message: "API funcionando com CI/CD no Render via github actions..." })
 })
 
 app.listen(PORT, () => {
