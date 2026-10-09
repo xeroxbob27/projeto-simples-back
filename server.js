@@ -29,6 +29,9 @@ const corsOptions = {
   allowedHeaders: "Content-Type,Authorization",
 }
 
+// aplica as regras de cors definidas acima em todas as rotas da api
+app.use(cors(corsOptions))
+
 // rota v1
 app.get("/v1", (req, res) => {
   // cria uma data com o momento atual da chamada da rota
