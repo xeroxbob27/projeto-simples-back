@@ -12,7 +12,7 @@ const corsOptions = {
   // a segunda origem deve ser substituída pela url real do front-end aberto no codespaces
   origin: [
     "https://projeto-simples-front-five.vercel.app",
-    "https://humble-fortnight-pj6w6r95g5pvfr46w"
+    "https://humble-fortnight-pj6w6r95g5pvfr46w.github.dev"
   ],
 
   // métodos http permitidos nas requisições para a api
